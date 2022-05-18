@@ -1,0 +1,82 @@
+body {
+    background-color: #000000;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    border: blue;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+}
+
+body {
+    color: white;
+}
+
+.blue {
+    color: #001df7;
+}
+
+.backgroundblack {
+    background-color: #000000;
+}
+
+img {
+    opacity: 0.3;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+li {
+    opacity: 0.3;
+}
+
+li:hover {
+    opacity: 1.0;
+}
+
+body { /*this animation code is not mine and was taken from a google external source*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.innerGradient {
+    z-index: -1;
+    width: 300%;
+    height: 488%;
+    position: absolute;
+    animation: gra 5s infinite;
+    -webkit-animation: gra 5s infinite;
+    background: linear-gradient(135deg, #f70000 0%, #15f700 20%, #001df7 50%, #001df7 80%, #001df7 100%);
+    background: -webkit-linear-gradient(135deg, #001df7 0%, #001df7 20%, #000000 50%, #000000 80%, #001df7 100%);
+}
+
+@keyframes gra {
+    0% {
+        left: -200%;
+        top: -200%;
+    }
+
+    50% {
+        left: 0%;
+        top: 0%;
+    }
+
+    100% {
+        left: -200%;
+        top: -200%;
+    }
+}
+
+.blue {
+    font-family: 'Fruktur', cursive;
+}
